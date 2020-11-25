@@ -1,0 +1,138 @@
+body{
+	background-color:  #f8f9fb;
+}
+.cards-white-main{
+		background-color: #f8f9fb;
+		display: flex;
+		justify-content: space-around;
+		height: 500px;
+		padding: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 100px;
+
+}
+.cards-white{
+	height: 450px;
+	width: 350px;
+	border-radius: 5px;
+	background-color: white; 
+	padding-left:30px; 
+	box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+.cards-white:hover {
+    transform: scale3d(0.5);
+    background-color: #f1b45e;
+    transform: rotateX();
+}
+.cards-white-main:hover {
+    background-color: #eee;
+}
+.card:hover {
+    box-shadow: 3px 0px 15px 0px rgba(196, 120, 21, 0.08);
+    background-color: #f1b45e;
+    transform: rotateX(90deg);
+}
+.card-img{
+    padding-top: 20px;
+	padding-bottom: 10px; 
+}
+.blue-cards-main-div{
+	background-color: #1d3883;
+	padding: 20px;
+	padding-bottom: 100px;
+}
+.title{
+	text-align:center;
+	padding-top: 90px;
+	color: white;
+	}
+
+.blue-cards-main-div p{
+	color: #d1d7e6;
+	font-size: 20px;
+	text-align:center;
+}
+.blue-cards-main-div h2{
+	font-size: 40px;
+	letter-spacing: 1.11px;
+}
+.blue-cards{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+.a{
+	flex:50%;
+}
+.b{
+	flex:50%;
+	display: flex;
+}
+.card{
+	height: 300px;
+	width: 250px;
+	box-shadow:3px 0px 15px 0px rgba(0,0,0,0.08);
+	padding: 20px;
+	background-color: #1d3883;
+	background-color: transparent;
+	border-radius: 10px;
+}
+.card-text{
+	color: #ffd062;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+
+
+
+
+.middle{
+	text-align: center;
+	
+
+}
+.middle h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	letter-spacing: 1.11px;
+	line-height: 50px;
+}
+.middle p{
+	color: #5a5d6e;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 40px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.img{
+	height: 334.88px;
+	width: 255.004px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.scroll{
+	overflow-y:scroll ; 
+	max-height: 400px;
+	padding-top: 30px;
+}
+.after-scrll-box{
+	background-color: rgba(0, 0, 0, 0.05);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px -1px;
+	padding: 15px;
+}
+.button-set{
+	background-color:rgb(1, 66, 172);
+	color: rgb(255, 255, 255);
+	border-radius: 4px;
+	width: 100px;
+   	font-size: 35px;
+   	font-family: inherit;
+   	font-weight: 800;
+}

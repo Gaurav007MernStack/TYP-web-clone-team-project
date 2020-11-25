@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.nav{
+    display: flex;
+    background-color:rgb(26,56,130) ;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.nav .button2{
+    padding: 3%;
+    cursor: pointer;
+      text-transform: uppercase;   
+}
+.nav .button2 .a{
+    font-family: 'Lora', serif;
+
+}
+.title2{
+    background-color:rgb(26,56,130) ;
+    color: white;
+    font-size: xx-large;
+    padding: 2%;
+
+}
+.container2{
+    display: flex;
+    background-color:rgb(26,56,130) ;
+    padding: 2%; 
+}
+.container2:after {
+    position: absolute;
+    content: '';
+    width: 495px;
+    height: 346px;
+    background: url(./Images/pattern.png) top left;
+    bottom: -520px;
+    right: 0;
+}
+.bt1:hover{
+    background-color: rgb(26,56,130);
+    border: 2px solid white;
+}
+.bt2:hover{
+    background-color: #eee;
+    color: #eee;
+}
+.wri{
+    flex: 40%;
+    color: white;
+     font-size: x-large;
+}
+.wri .button{
+    align-items: center;
+    width: 100%;
+    
+}
+.b:hover{
+    background-color:rgb(26,56,130) ;
+}
+.img{
+    flex: 30%;
+    
+}
+.doted{
+    background-color: white;
+    background-image: radial-gradient(red 3px, transparent 3px);
+    background-size: 50px 50px;
+}
+.section{
+    background-color: white;
+    padding: 10%;
+    display: flex;
+
+}
+.tit{
+    font-size: xx-large;
+    flex: 70%;
+}
+.tit1{
+   font-size: xx-large;
+   color:gray;
+}
+.tit2{
+    color: rgb(110, 108, 108);
+}
+
+
+
+
+
+
+
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+/*.main3{
+    height: 300px;
+}*/
+.nav3{
+    display: flex;
+    background-color:rgb(26,56,130) ;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+.container3{
+    height: 100%;
+    width: 100%;
+    background-image: url(./IMG-20201125-WA0029.jpg);
+    position: absolute;
+    
+    background-repeat: no-repeat;
+}
+.imgdark3{
+    /*background:rgba(0,0,0,0.5)*/
+    background-image: url(./Images/abtbg.png);
+    background-size: cover;
+
+}
+.wri3{
+      text-align: center;
+    padding: 12%;
+    color: white;
+    font-size: xx-large;
+    
+}
